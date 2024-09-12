@@ -4,13 +4,13 @@ $one__font: "Odoo Unicode Support Noto", "Lucida Grande", Helvetica, Verdana, Ar
 
 //Colors
 $one__light: #FFF !default;
-$one__primary: #386aeb !default;
-$one__sidebar-color-hover: #274aa5 !important;
-$one__sidebar-border: #386aeb !important;
-$one__sidebar-color: #386aeb !important;
+$one__primary: #1c284c !default;
+$one__sidebar-color-hover: #cbf000 !important;
+$one__sidebar-border: #1c284c !important;
+$one__sidebar-color: #1c284c !important;
 $one__sidebar_text: #fff !default;
 $one__primary-light: #ebf0fd !default;
-$one__primary-dark: #274aa5 !important;
+$one__primary-dark: #cbf000 !important;
 $one__light-font-primary: #1f2631 !important;
 $one__light-font-secondary: #575757 !important;
 $one__hover-bkg-light: #f5f5f5 !important;
@@ -354,14 +354,13 @@ li.o_MessagingMenu.o-is-open {
     background-color: $one__primary !important;
     border-color: $one__primary !important;
     color: $one__light !important;
-
+//mejorar
     &:hover{
-         background-color: $one__primary-dark !important;
+         background-color: #cbf000!important;
+         border-color: #cbf000!important;
     }
 
-    &:focus{
-        box-shadow: 0 0 0 0.2rem rgba(235,240,253, 0.8);
-    }
+    
 }
 .btn-secondary{
   background-color: $one__hover-bkg-light;
@@ -942,6 +941,7 @@ tr:nth-child(even){
     padding-top: 20px;
     padding-left: none;
     color: $one__light;
+    margin-left: 15px;
 }
 
 .sidebar_panel .sidebar .sidebar_menu {
@@ -1047,8 +1047,10 @@ div.dropdown-menu.bootstrap-datetimepicker-widget {
 
 .o_menu_systray .o-dropdown.dropdown > .o-dropdown--menu {
     top: 46px !important;
-    left: 75% !important;
-    right: 20px !important;
+    left: 90% !important;
+    right: 50px !important;
+    width: 450px !important;
+    margin-left: 0 !important;
 }
 @media (max-width: 768px) {
     .o_many2one_avatar_user_cell {
@@ -1068,9 +1070,9 @@ div.dropdown-menu.bootstrap-datetimepicker-widget {
 .o-mail-DiscussSystray-class > .o-dropdown--menu{
     margin-left:-450px !important;
 }
-.o-mail-ActivityMenu{
-    margin-left: 229px !important;
-}
+// .o-mail-ActivityMenu{
+//     margin-left: 229px !important;
+// }
 .o_switch_company_menu > .o-dropdown--menu {
     top: 48px !important;
     left: 80% !important;

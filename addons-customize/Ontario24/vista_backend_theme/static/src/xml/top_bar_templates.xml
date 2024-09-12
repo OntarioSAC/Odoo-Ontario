@@ -53,7 +53,7 @@
                             <img src="/vista_backend_theme/static/src/img/icons/close.png"/>
                         </a>
                     </div>
-                    <h6 class="sidebar_head">MENU</h6>
+                    <img class="sidebar_head" src="/vista_backend_theme/static/src/img/logo/ontario-A.png"/>
                     <ul class="sidebar_menu">
                         <t t-foreach="menuService.getApps()" t-as="app"
                            t-key="app.id">
@@ -109,7 +109,7 @@
     <!--    create User menu template-->
     <t t-inherit="web.UserMenu" t-inherit-mode="extension" owl="1">
         <xpath expr="//small[hasclass('oe_topbar_name')]" position="replace">
-            <div class="oe_topbar_name"/>
+            <div class="oe_topbar_name ml-auto"/>
         </xpath>
     </t>
 </templates>

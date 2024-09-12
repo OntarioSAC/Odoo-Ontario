@@ -1,6 +1,6 @@
 $one__light: #FFF !default;
-$one__primary: #386aeb !default;
-$one__primary-dark: #274aa5 !important;
+$one__primary: #1c284c !default;
+$one__primary-dark: #1c284c !important;
 $one__border-light: #d4d4d4 !important;
 
 $transition-normal: all 0.4s linear !default;
@@ -22,19 +22,22 @@ $transition-normal: all 0.4s linear !default;
     }
 }
 
-.form-control{
-    border-radius: 0px !important;
-    border-color: $one__border-light;
-    background-color: none;
+//inputs de formulario
+.form-control {
+    border: none !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 30px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-    &:focus{
-        box-shadow: none !important;
+    &:focus {
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2) !important;
+        transform: scale(1.02);
     }
 }
 
 //Buttons
 .btn{
- border-radius: 0px;
+ border-radius: 30px;
 
  &:hover{
     filter: brightness(90%) !important;
