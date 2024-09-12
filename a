@@ -1,0 +1,41 @@
+[33mcommit 6bd1e9842d95a112f0f68611e08196e1085cb115[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mRodrigo[m[33m)[m
+Author: Rodrigo <rodrigo209y@gmail.com>
+Date:   Thu Sep 12 12:10:01 2024 -0500
+
+    probando
+
+[33mcommit ffcf893d62d533a5520186645aaadee033c59743[m
+Author: OntarioSAC <soporte@inmobiliariaontario.com>
+Date:   Thu Sep 12 09:34:51 2024 -0500
+
+    primer cambio de odoo diseño
+
+[33mcommit ed8dd03b1293e159df699a7748dbb08bc073e72b[m[33m ([m[1;32mmain[m[33m)[m
+Author: OntarioSAC <soporte@inmobiliariaontario.com>
+Date:   Wed Sep 11 12:57:17 2024 -0500
+
+    Eliminar .venv del control de versiones
+
+[33mcommit 3b67a956db855821e5a79d0f5add47726b44c663[m
+Author: OntarioSAC <soporte@inmobiliariaontario.com>
+Date:   Wed Sep 11 12:51:50 2024 -0500
+
+    Add gitignore
+
+[33mcommit 3c8f52b06caccb348906723a1235d9ffdcaa2bc9[m
+Author: OntarioSAC <soporte@inmobiliariaontario.com>
+Date:   Wed Sep 11 12:44:27 2024 -0500
+
+    Tu mensaje de commit aquí
+
+[33mcommit 3eb259d3c90aee2b0c468e10edc6d56095868fce[m
+Author: OntarioSAC <soporte@inmobiliariaontario.com>
+Date:   Wed Sep 11 12:42:12 2024 -0500
+
+    Tu mensaje de commit aquí
+
+[33mcommit 51f5e9d71aab6de95e864d75019871a0d6241450[m
+Author: OntarioSAC <soporte@inmobiliariaontario.com>
+Date:   Wed Sep 11 12:30:25 2024 -0500
+
+    Initial commit
